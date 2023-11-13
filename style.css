@@ -1,7 +1,43 @@
 * {
     margin: 0;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: handW;
+    src: url(Daniel-Bold.otf);
 }
 
 body {
     background-image: url(fnaftexturebeta.png);
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vw;
+}
+
+main {
+    background-image: url(paper-texture.jpg);
+    background-size: cover;
+    width: 45vw;
+    height: 45vw;
+    box-shadow: 2px 2px 4px black;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: handW;
+    padding: 1vw;
+}
+
+form {
+    margin-left: 1vw;
+}
+
+button {
+    margin-left: 1vw;
 }

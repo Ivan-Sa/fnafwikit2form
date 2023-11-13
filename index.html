@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <link rel="stylesheet" href="style.css">
     <title>Formulario</title>
 </head>
+
 <body>
-    <h1>Formulario</h1>
-    <form action="#">
-        <label for=""></label>
-    </form>
+    <article>
+    <main>
+        <h1>Formulario</h1>
+        <form action="#">
+            <label for="name">Ingrese su nombre:</label><br>
+            <input type="text" id="name"><br><br>
+            <label for="star">Valora nuestra pagina de 1 a 5 estrellas: </label><br>
+            <input type="range" name="Valoracion" id="star" max="4"><br>
+            <label for="star">1*    2*   3*   4*   5*</label><br><br>
+            <label for="spam">Si quiere recibir actualizaciones ingrese un email: </label>
+            <input type="email" name="email" id="spam"><br><br>
+            <p>Muchas gracias por su opinion!</p><br>
+            <input type="submit" value="Enviar">
+        </form>
+        <br>
+        <button><a href="https://ivan-sa.github.io/fnafwikit2/">Volver a la pagina</a></button>
+    </main>
+    </article>
 </body>
+
 </html>
